@@ -4,27 +4,17 @@ namespace ObjectOrientation
 {
     public class animal
     {
-        public void eat()
+        public virtual void voice()
         {
-            Console.WriteLine("Animals are eating");
-        }
-        public virtual void analyze()
-        {
-            Console.WriteLine("Analyzing the animal.....");
+            Console.WriteLine("Analyzing the Voice");
         }
     }
-    public class dog : animal { 
-    public void bark()
-        {
-            Console.WriteLine("Dog is barking");
-        }
-        public override void analyze()
-        {
-            Console.WriteLine("Animal is dog");
-        }
 
-    
-    
+    public class dog : animal {
+        public override void voice()
+        {
+            Console.WriteLine("Voice is of Barking");
+        }
     }
     internal class Program
     {
@@ -51,7 +41,7 @@ namespace ObjectOrientation
             student.Registered();
             Console.WriteLine($"Name: {student.name} Course: {student.course} Marks: {student.marks}");
             dog d = new dog();
-            d.analyze();
+            d.voice();
             Console.ReadLine();
 
             
