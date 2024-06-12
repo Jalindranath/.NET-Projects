@@ -19,9 +19,9 @@ namespace Activity_1
             int num2 = int.Parse(Console.ReadLine());
             Console.Write($"\n\nBefore Swapping\n Number 1: {num1} \n Number 2: {num2}");
 
-            num1 = num1 + num2;
+            num1 +=  num2;
             num2 = num1 - num2;
-            num1 = num1- num2 ;
+            num1 -= num2 ;
 
             Console.Write($"\n\nAfter Swapping\n Number 1: {num1} \n Number 2: {num2}\n");
 

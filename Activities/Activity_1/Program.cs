@@ -15,7 +15,7 @@ namespace Activity_1
     {
         static void Main(string[] args)
         {
-            Console.Write(" 1.Prime Numbers between  1 to N\n 2. Swap two variables without using third variable\n 3.Find the factorial of number\n 4.Print the Fibnacci Series \n Choice: ");
+            Console.Write(" 1. Prime Numbers between  1 to N\n 2. Swap two variables without using third variable\n 3. Find the factorial of number\n 4. Print the Fibnacci Series \n 5. Pattern Choice: ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
             {
@@ -37,8 +37,13 @@ namespace Activity_1
                     num1 = int.Parse(Console.ReadLine());
                     Fibnocci.Fibnocci_Series(num1);
                     break;
+                case 5:
+                    
+                    Pattern.patterns();
+                    break;
 
             }
+            Console.ReadLine();
 
         }
     }
