@@ -20,7 +20,7 @@ namespace Activity_1
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("\n\n\n\n");
+            Console.WriteLine("\n\n\n");
             Console.WriteLine("Second Pattern: \n");
             for (int i = 0; i < 5; i++)
             {
@@ -30,7 +30,7 @@ namespace Activity_1
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("\n\n\n\n");
+            Console.WriteLine("\n\n\n");
             Console.WriteLine("Third Pattern: \n");
             for (int i = 0; i < 5; i++)
             {
@@ -45,23 +45,59 @@ namespace Activity_1
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("\n\n\n\n");
+            
 
-            /* for (int i = 0; i < 5; i++)
+            Console.WriteLine("\n\n\n");
+            Console.WriteLine("Fourth Pattern: \n");
+
+            for (int i = 0; i < 5; i++)
             {
                 
                 for (int j = i; j <= 5; j++)
                 {
-                    for (int k = j; k < 5; k++)
-                    {
-                        Console.Write(" ");
-                    }
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+                for (int k = 0; k <= i; k++)
+                {
+                    Console.Write(" ");
+                }
+                
+            }
+            Console.WriteLine("\n\n\n");
 
+            Console.WriteLine("Fifth Pattern: ");
+
+            for (int i = 1; i <= 5; i++)
+            {
+                // Print spaces
+                for (int j = i; j < 5; j++)
+                {
+                    Console.Write(" ");
+                }
+                // Print stars
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
                     Console.Write("*");
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("\n\n\n\n");*/
+            Console.WriteLine("Sixth Pattern: ");
+            for (int i = 1; i <= 5; i++)
+            {
+                // Print spaces
+                for (int k = (2 * i - 1); k >= 1; k--)
+                {
+                    Console.Write("*");
+                }
+                for (int j = i; j < 5; j++)
+                {
+                    Console.Write(" ");
+                }
+                // Print stars
+                
+                Console.WriteLine();
+            }
 
 
 
