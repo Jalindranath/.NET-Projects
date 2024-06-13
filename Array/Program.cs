@@ -55,7 +55,7 @@ namespace Array
                     break;
                 case 4:
                     DateTime dateTime = DateTime.Now;
-                    Console.WriteLine(dateTime.ToString());
+                    Console.WriteLine(dateTime);
                     break;
 
 
