@@ -9,18 +9,18 @@ namespace Inheritance
 
 
 
-    public interface IFlyable
+    public interface Flyable
     {
         void Fly();
     }
 
-    public interface ISwimmable
+    public interface Swimmable
     {
         void Swim();
     }
 
 
-    public class Duck : IFlyable, ISwimmable
+    public class Duck : Flyable, Swimmable
     {
         public void Fly()
         {
@@ -41,9 +41,9 @@ namespace Inheritance
             duck.Fly();
             duck.Swim();
 
-            // Using interface references
-            IFlyable flyable = duck;
-            ISwimmable swimmable = duck;
+            
+            Flyable flyable = duck;
+            Swimmable swimmable = duck;
 
             flyable.Fly();
             swimmable.Swim();

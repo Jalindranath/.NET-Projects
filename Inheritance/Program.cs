@@ -10,7 +10,10 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Multiple Inheritance : ");
             MultipleInheritace.Print();
+            Console.WriteLine("\n\n\nMulti Level Inheritance : ");
+            MultiLevelInheritance.Display();
         }
     }
 }
