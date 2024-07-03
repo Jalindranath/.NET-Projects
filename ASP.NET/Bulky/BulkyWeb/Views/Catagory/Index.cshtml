@@ -1,0 +1,28 @@
+﻿@model List<Catagory>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Value
+        </th>
+        <th>
+            age
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.Id</td>
+                <td>@obj.City</td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>

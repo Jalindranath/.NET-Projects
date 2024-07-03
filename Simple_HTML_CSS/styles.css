@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(39, 189, 64, 0.1);
+}
+.congratulations {
+  font-family: 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #FF0000;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+header .logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header h1 {
+    color: #d2232a;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+header h2 {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.mitacs-logo {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+main h3 {
+    font-size: 32px;
+    color: #0073e6;
+    margin: 10px 0;
+}
+
+main p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.students {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.student {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hexagonal-image {
+    width: 125px; /* adjust the width and height to your liking */
+    height: 125px; /* 173px is the height of a hexagon with a 200px width */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    overflow: hidden;
+    border: #0073e6;
+    
+  }
+  
+.hexagonal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+    
+  }
+
+.student h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.bottom{
+    background: #e42121;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+}
